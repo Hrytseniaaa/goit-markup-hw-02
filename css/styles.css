@@ -129,6 +129,11 @@ color:var(--accent-color);
 }
 
 
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    background: #188CE8;
+}
+
 
 
  /* cпільне для банера */
