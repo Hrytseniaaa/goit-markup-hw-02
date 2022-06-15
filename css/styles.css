@@ -147,7 +147,7 @@ color:var(--accent-color);
 
  /* перша секція */
 
- .nodisplay-title {
+ .visually-hidden {
      display: none;
  }
 
@@ -218,6 +218,7 @@ background: #F5F4FA;
         line-height:1.62;
         color: var(--section-title-color);
         cursor: pointer;
+        background-color: #F5F4FA;;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -257,6 +258,7 @@ background-color: var(--accent-color);
 color: var(--white-color);
 }
 
-.exampls .title {
-
+.preferences-title,
+.hero-title {
+text-transform: uppercase;
 }
