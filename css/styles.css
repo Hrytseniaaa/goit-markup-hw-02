@@ -196,14 +196,15 @@ background: #F5F4FA;
     color: #ffffff;
 }
 
-.address-link .link {
+.address .link {
     color: var(--fotter-link);
-
+    font-style: normal;
 }
+
 .address-link .link,
 .address {
-font-size: 14px;
-line-height: 1.71px;
+    font-size: 14px;
+    line-height: 1.71px;
 
 }
 
