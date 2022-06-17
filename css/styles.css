@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #E5E5E5;
+
     color:var(--primary-text-color) ;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -185,7 +185,7 @@ background: #F5F4FA;
 
 h3.name\,.title {
    font-weight: 500;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.14;  
 }
        
@@ -194,7 +194,7 @@ h3.name\,.title {
 
 .position {
  font-weight: 400;
- font-size: 14px;
+ font-size: 16px;
  line-height: 1.18;
 }
 
@@ -213,6 +213,10 @@ h3.name\,.title {
 
 .address .link {
     color: var(--fotter-link);
+    font-style: normal;
+}
+
+.city {
     font-style: normal;
 }
 
