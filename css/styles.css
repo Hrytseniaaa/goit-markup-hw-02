@@ -16,7 +16,9 @@ body {
     
 }
 .title {
-    color:var(--section-title-color);}
+    color:var(--section-title-color);
+    
+}
 
 .section-title {
         font-weight: 700;
@@ -147,15 +149,26 @@ color:var(--accent-color);
 
  /* перша секція */
 
- .visually-hidden {
-     display: none;
- }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .preferences-title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
         color: var(--section-title-color)
+        
 }
 .preferences-text {
         font-size: 14px;
@@ -170,17 +183,19 @@ color:var(--accent-color);
 background: #F5F4FA;
 }
 
-.name {
-        font-weight: 700;
+h3.name\,.title {
+   font-weight: 500;
         font-size: 14px;
-        line-height: 1.14;
-
+        line-height: 1.14;  
 }
+       
+
+
 
 .position {
-        font-size: 14px;
-        line-height: 1.71px;
-
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.18;
 }
 
 /* наша команда end */
